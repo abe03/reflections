@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+-When you create a respository, git creates something like a folder in which it keeps all of the files grouped and is ready to make commits or start keeping track of the changes on every file.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+-The staging area is different in the sense that it allows you to get the stuff that you have completed to be ready to save(commit), while you keep working on other stuff in your your working directory which is part of your whole directory.
