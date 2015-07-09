@@ -3,3 +3,18 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 -The staging area is different in the sense that it allows you to get the stuff that you have completed to be ready to save(commit), while you keep working on other stuff in your your working directory which is part of your whole directory.
+
+How can you use the staging area to make sure you have one commit per logical change?
+-You can use the staging area to make sure you only stage some changes but not necessarily all of them, if you later decide you would like to add more small changes from working directories, then you can do that and when it makes the most sense then commit the changes togethers.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+-They might be helpful when you would want to make different changes but would like to keep the original file stay the same and only apply the changes at the end when you decide it looks file through mergin.
+
+How do the diagrams help you visualize the branch structure?
+-They allow you to see the direction of the branch and the history of it's commits, also to see if any commits would be left unreachable.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+-Most of the changes made to the files in the different branches get combined into a new master branch with the history of the commits of what were previously two separate branches. It gets represented the way it does, because it is said that since you are mostly adding the changes of the newly made branch and keeping all the history of the original master branch then you are mergin the newer branch into the master branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+-The good of automatic merging is that it makes it really easy to make changes to your updated files, the bad is that if git were to choose all of the changes even when conflicts arise, you might end up with bugs and stuff that might not be what you wanted. The good about manual merges is that it allows you to review the changes made to a file by different parties and decide which ones to go with, the bad is that you mightn have to talk to the other person making changes about which is the correct to go which could increase the time you put into these updates.
